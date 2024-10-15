@@ -1,0 +1,7 @@
+[package]
+name = "noir_regex"
+type = "lib"
+authors = [""]
+compiler_version = ">=0.34.0"
+
+[dependencies]
