@@ -29,3 +29,5 @@ pub struct AstNode {
     chars: Vec<u32>,
     negate: bool,
 }
+
+fn test() {}

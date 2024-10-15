@@ -6,7 +6,7 @@ pub struct Queue<T> {
 
 }
 
-trait QueueTrait<T>  {
+pub trait QueueTrait<T>  {
     fn new() -> Queue<T>;
     fn enqueue(&mut self, item: T) -> bool;
     fn dequeue(&mut self) -> Option<T>;
